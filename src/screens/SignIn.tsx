@@ -13,8 +13,10 @@ import {
   VStack,
 } from 'native-base'
 import { Platform, ScrollView } from 'react-native'
+import { useAuth } from '../store/Auth'
 
 export function SignIn() {
+  const { handleAuthenticateUser } = useAuth()
   const { navigate } = useNavigation<AuthNavigatorRoutesProps>()
 
   function handleNewAccount() {
@@ -40,7 +42,7 @@ export function SignIn() {
             />
             <Center>
               <Text color="white" fontWeight="extrabold" fontSize="lg">
-                Seja muito bem vindo
+                Seja muito bem vindo!
               </Text>
             </Center>
           </Box>
@@ -57,7 +59,11 @@ export function SignIn() {
             />
             <Input placeholder="Senha" secureTextEntry returnKeyType="send" />
 
-            <Button title="Acessar" isLoading={false} />
+            <Button
+              title="Acessar"
+              isLoading={false}
+              onPress={() => handleAuthenticateUser(true)}
+            />
           </Center>
 
           <Center mt={24}>

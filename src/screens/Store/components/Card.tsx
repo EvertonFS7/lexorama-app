@@ -8,56 +8,21 @@ const DATA = [
     title: 'PSN',
     image:
       'https://gmedia.playstation.com/is/image/SIEPDC/PS_STORE_DIGITAL_CODE_PORT_BRA_2021_09_01_60?$native$',
-    price: '50',
+    price: '150',
   },
   {
     id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
     title: 'Xbox',
     image:
       'https://assets.nuuvem.com/image/upload/t_screenshot_full/v1/products/5e50593bfd89597ea2129d8d/screenshots/d7db37valfqiutkcubxv.jpg',
-    price: '50',
+    price: '170',
   },
   {
     id: '58694a0f-3da1-471f-bd96-fsfsfs78fsf',
     title: 'Steam',
     image:
       'https://images.g2a.com/360x600/1x1x1/steam-gift-card-50-usd-steam-key-global-i10000000258118/867bf953149d4926b01826ab',
-    price: '50',
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-dadaduad838dh3',
-    title: 'Steam',
-    image:
-      'https://images.g2a.com/360x600/1x1x1/steam-gift-card-50-usd-steam-key-global-i10000000258118/867bf953149d4926b01826ab',
-    price: '50',
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-shnqwudh31279',
-    title: 'Steam',
-    image:
-      'https://images.g2a.com/360x600/1x1x1/steam-gift-card-50-usd-steam-key-global-i10000000258118/867bf953149d4926b01826ab',
-    price: '50',
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-dj82jh38dhjd3',
-    title: 'Steam',
-    image:
-      'https://images.g2a.com/360x600/1x1x1/steam-gift-card-50-usd-steam-key-global-i10000000258118/867bf953149d4926b01826ab',
-    price: '50',
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-d3qdf3qffqr3r',
-    title: 'Steam',
-    image:
-      'https://images.g2a.com/360x600/1x1x1/steam-gift-card-50-usd-steam-key-global-i10000000258118/867bf953149d4926b01826ab',
-    price: '50',
-  },
-  {
-    id: '58694a0f-3da1-471f-bd96-rq3rq3rqrq3r3',
-    title: 'Steam',
-    image:
-      'https://images.g2a.com/360x600/1x1x1/steam-gift-card-50-usd-steam-key-global-i10000000258118/867bf953149d4926b01826ab',
-    price: '50',
+    price: '100',
   },
 ]
 

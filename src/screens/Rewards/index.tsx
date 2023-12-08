@@ -18,7 +18,7 @@ import React from 'react'
 export default function Rewards() {
   return (
     <>
-      <Box pt={12} px={4} py={5} bg="purple.400">
+      <Box pt={12} px={4} py={5} bg="green.400">
         <HStack justifyContent="space-between">
           <VStack>
             <Text color="white" fontSize="2xl" fontFamily="heading">
